@@ -4,7 +4,7 @@ export default async function handler(req, res) {
       "https://euw1.api.riotgames.com/lol/platform/v3/champion-rotations",
       {
         headers: {
-          "X-Riot-Token": process.env.RIOT_API_KEY
+          "X-Riot-Token": process.env.RGAPI-edd7e740-35e3-4ebe-bd41-f614f8ba94ad
         }
       }
     );
